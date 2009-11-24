@@ -2,16 +2,11 @@ d = 45
 r = 9
 c = 11
 size(c*d, r*d)
-speed(10)
 
 techcon = "TECHCON"
 yyyy = "2009"
-
-def setup():
-    global frame
-    frame = 1
     
-def draw():
+def drawdots():
     font('Visitor TT1 BRK', d)
 
     push()
@@ -56,4 +51,4 @@ def drawtext(t, r1, c1):
 
     pop()
 
-#draw()    
+drawdots()    

@@ -7,7 +7,7 @@ techcon = "TECHCON"
 yyyy = "2009"
     
 def drawdots():
-    font('Visitor TT1 BRK', d)
+    font('Visitor TT1 (BRK)', d)
 
     push()
     
